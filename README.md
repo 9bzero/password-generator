@@ -1,23 +1,29 @@
-# password-generator
+# Password Generator
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Cryptographically secure password generator with strength meter
+Generate cryptographically secure passwords with a live strength meter and one-click copy.
 
 ## Features
-- 🔐 Uses `crypto.getRandomValues` — truly secure
-- 📏 Configurable length (4–64 characters)
-- ✅ Toggle uppercase, lowercase, numbers, symbols
-- 💪 Real-time strength meter
-- 📋 One-click clipboard copy
 
-## Tech Stack
-`React 18` · `TypeScript` · `Web Crypto API` · `Vite`
+- Configurable length (8–128 characters)
+- Character set toggles: uppercase, lowercase, numbers, symbols
+- Exclude ambiguous characters (0, O, l, I)
+- Strength meter: Weak / Fair / Strong / Very Strong
+- Bulk generation (up to 20 passwords at once)
+- Copy to clipboard
+- Uses `crypto.getRandomValues()` — cryptographically secure
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Web Crypto API](https://img.shields.io/badge/Web_Crypto_API-orange?style=flat)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
